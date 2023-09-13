@@ -14,7 +14,36 @@
         <a class header__link href="#vacancies">Посмотреть вакансии</a>
     </div>
   </header>
-<main></main>
+
+    <main>
+    <section class = "hero">
+        <div class ="container hero__container">
+          <h1 class="hero__title">Найди работу
+            <span>своей мечты</span>
+          </h1>
+        </div>
+    </section>
+
+    <div class ="vacancies" id="vacancies">
+      <div class="container vacancies__container">
+          <section class="vacancies__filter filter">
+              <h2 class="filter__title">Фильтр</h2>
+              <form class="filter__form">
+                  <fieldset class="filter__fieldset">
+                      <legend class="filter__legend">Город</legend>
+                      <select class="filter__select" name="city" id="city">
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Новосибирск</option>
+                      </select>
+                  </fieldset>
+              </form>
+          </section>
+          <section class="vacancies__cards cards"></section>
+      </div>
+    </div>
+    </main>
+
 <footer></footer>
 </body>
 </html>
